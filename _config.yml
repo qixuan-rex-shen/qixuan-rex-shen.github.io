@@ -22,8 +22,8 @@ title: Qixuan Shen
 description: >- # this means to ignore newlines until "baseurl:"
   Qixuan Shen is a Linguistics student at the University of Southern California
   interested in artificial intelligence, language models, and intelligent systems.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the site is published at the domain root
+url: "https://qixuanshen.github.io"
 github_username: qixuan-rex-shen
 
 # Build settings
