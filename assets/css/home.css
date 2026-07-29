@@ -1,8 +1,8 @@
 :root {
   color-scheme: light;
   font-family: Georgia, "Times New Roman", serif;
-  color: #222;
-  background: #fff;
+  color: #3f2d20;
+  background: #f3ead8;
 }
 
 * {
@@ -22,7 +22,7 @@ main {
 
 header {
   display: grid;
-  grid-template-columns: 1fr 150px;
+  grid-template-columns: 1fr 210px;
   gap: 40px;
   align-items: start;
   padding-bottom: 38px;
@@ -30,8 +30,8 @@ header {
 }
 
 header img {
-  width: 150px;
-  height: 190px;
+  width: 210px;
+  height: 265px;
   object-fit: cover;
   object-position: 57% center;
 }
@@ -71,7 +71,7 @@ section + section {
 }
 
 .project span {
-  color: #666;
+  color: #796552;
 }
 
 .project .project-details {
@@ -82,18 +82,18 @@ section + section {
 
 .project small {
   margin-top: 2px;
-  color: #666;
+  color: #796552;
   font-size: 0.85rem;
   font-style: italic;
 }
 
 a {
-  color: #0645ad;
+  color: #c45720;
   text-underline-offset: 2px;
 }
 
 a:hover {
-  color: #000;
+  color: #8f3513;
 }
 
 @media (max-width: 520px) {
@@ -107,7 +107,7 @@ a:hover {
 
   header img {
     grid-row: 1;
-    width: 120px;
-    height: 150px;
+    width: 170px;
+    height: 215px;
   }
 }
