@@ -87,6 +87,11 @@ section + section {
   font-style: italic;
 }
 
+.project-links {
+  margin-top: 2px;
+  font-size: 0.9rem;
+}
+
 a {
   color: #c45720;
   text-underline-offset: 2px;
